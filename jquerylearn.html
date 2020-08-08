@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>animate demo</title>
+  <style>
+  div {
+    background-color: #bca;
+    width: 100px;
+    border: 1px solid green;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+<div class="foo">eh,gujheklrghoae</div>
+<div class="bar" data-move-x="-200px" data>jmhflwrjlyjhle</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+<script>
+  // Attach Smoove to elements and set default options
+  $(".foo, .bar").smoove({
+    offset  : '15%',
+    // moveX is overridden to -200px for ".bar" object
+    moveX   : '100px',
+    moveY   : '100px',
+  });
+</script>
+ 
+<script>
+// Using multiple unit types within one animation.
+ 
+</script>
+ 
+</body>
+</html>
